@@ -1,0 +1,6 @@
+framework module Pods_TXKomlinIM_Tests {
+  umbrella header "Pods-TXKomlinIM_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

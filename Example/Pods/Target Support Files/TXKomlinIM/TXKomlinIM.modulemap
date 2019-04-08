@@ -1,0 +1,6 @@
+framework module TXKomlinIM {
+  umbrella header "TXKomlinIM-umbrella.h"
+
+  export *
+  module * { export * }
+}

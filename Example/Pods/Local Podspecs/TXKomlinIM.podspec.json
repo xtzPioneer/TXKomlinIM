@@ -1,0 +1,28 @@
+{
+  "name": "TXKomlinIM",
+  "version": "0.1.0",
+  "summary": "基于XMPP开发的即时通讯功能.",
+  "description": "杭州空灵智能科技有限公司基于XMPP开发的即时通讯功能",
+  "homepage": "https://github.com/xtzPioneer/TXKomlinIM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangxiong": "xtz_pioneer@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xtzPioneer/TXKomlinIM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TXKomlinIM/Classes/**/*.{h,m}",
+  "dependencies": {
+    "XMPPFramework": [
+
+    ]
+  },
+  "prefix_header_contents": "#import \"TXKomlinIM.h\""
+}
