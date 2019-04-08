@@ -24,5 +24,6 @@
 
     ]
   },
-  "prefix_header_contents": "#import \"TXKomlinIM.h\""
+  "prefix_header_contents": "#import \"TXKomlinIM.h\"",
+  "frameworks": "Foundation"
 }
