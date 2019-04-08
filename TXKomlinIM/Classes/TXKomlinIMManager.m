@@ -501,16 +501,14 @@ typedef NS_ENUM(NSInteger,TXKomlinIMConnectType){
  *  @param message 消息
  */
 - (void)sendMessageWithMessage:(XMPPMessage* _Nonnull)message{
-    if (self.connectType==TXKomlinIMConnectTypeLogIn && self.loginStatus==TXKomlinIMLoginStatusLoginSuccessful && self.connectStatus==TXKomlinIMConnectStatusServerConnectionSucceeded) {
-        // 更新发送状态
-        self.sendStatus=TXKomlinIMSendStatusSending;
-        // 分发发送状态
-        NSMutableDictionary *info=[NSMutableDictionary dictionary];
-        [info setValue:self forKey:TXKomlinIMManagerObjectKey];
-        [TXKomlinIMDistribution distributionSendStatus:self.sendStatus message:message info:info];
-        // 发送消息
-        [self.stream sendElement:message];
-    }
+    // 更新发送状态
+    self.sendStatus=TXKomlinIMSendStatusSending;
+    // 分发发送状态
+    NSMutableDictionary *info=[NSMutableDictionary dictionary];
+    [info setValue:self forKey:TXKomlinIMManagerObjectKey];
+    [TXKomlinIMDistribution distributionSendStatus:self.sendStatus message:message info:info];
+    // 发送消息
+    [self.stream sendElement:message];
 }
 
 #pragma mark- 断线重连
