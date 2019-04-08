@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XMPPFramework.h"
+#import <XMPPFramework/XMPPFramework.h>
 #import "TXKomlinIMConfiguration.h"
 
 NS_ASSUME_NONNULL_BEGIN
