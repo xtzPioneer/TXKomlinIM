@@ -37,4 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'XMPPFramework'
   # 公开的头文件
   s.prefix_header_contents = '#import "TXKomlinIM.h"'
+  # 依赖的系统framework库
+  s.frameworks = 'Foundation'
 end

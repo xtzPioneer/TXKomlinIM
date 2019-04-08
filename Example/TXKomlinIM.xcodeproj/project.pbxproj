@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FC13FE0CA28F8450921EA39 /* TXKomlinIM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TXKomlinIM.podspec; path = ../TXKomlinIM.podspec; sourceTree = "<group>"; };
+		0FC13FE0CA28F8450921EA39 /* TXKomlinIM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TXKomlinIM.podspec; path = ../TXKomlinIM.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3BBC67BDE01635EFAE53FD65 /* Pods-TXKomlinIM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXKomlinIM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TXKomlinIM_Tests/Pods-TXKomlinIM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5356A646804AD283379137B9 /* Pods-TXKomlinIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXKomlinIM_Example.release.xcconfig"; path = "Target Support Files/Pods-TXKomlinIM_Example/Pods-TXKomlinIM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TXKomlinIM_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXKomlinIM_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +62,10 @@
 		7014A9421B044C965C30CD37 /* Pods_TXKomlinIM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXKomlinIM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92A4DC6766EA15B5E0023853 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92A4DC6766EA15B5E0023853 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B6B7CFC0EC4D511DF967E41E /* Pods-TXKomlinIM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXKomlinIM_Tests.release.xcconfig"; path = "Target Support Files/Pods-TXKomlinIM_Tests/Pods-TXKomlinIM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAEA89C271EBE0B556F65952 /* Pods-TXKomlinIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXKomlinIM_Example.debug.xcconfig"; path = "Target Support Files/Pods-TXKomlinIM_Example/Pods-TXKomlinIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E3EC95BCD9A32DC6C00FB9EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3EC95BCD9A32DC6C00FB9EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9530BF863A95FB26DCA6A06 /* Pods_TXKomlinIM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXKomlinIM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				3BBC67BDE01635EFAE53FD65 /* Pods-TXKomlinIM_Tests.debug.xcconfig */,
 				B6B7CFC0EC4D511DF967E41E /* Pods-TXKomlinIM_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
