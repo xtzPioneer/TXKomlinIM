@@ -40,9 +40,7 @@ Pod::Spec.new do |s|
   # 公开的头文件
   s.prefix_header_contents = '#import "TXKomlinIM.h"'
   # 依赖的系统framework库
-  s.frameworks = 'Foundation','UIKit','XMPPFramework'
+  s.frameworks = 'Foundation'
   # 支持的Swift版本
   #s.swift_version = '4.0'
-  # 环境配置
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/XMPPFramework/module', 'ENABLE_BITCODE' => 'NO'}
 end
