@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # 支持的版本
   s.ios.deployment_target = '8.0'
+  # 是否支持ARC
+  s.requires_arc = true
   # 资源文件
   s.source_files = 'TXKomlinIM/Classes/**/*.{h,m}'
   # 依赖
@@ -39,4 +41,7 @@ Pod::Spec.new do |s|
   s.prefix_header_contents = '#import "TXKomlinIM.h"'
   # 依赖的系统framework库
   s.frameworks = 'Foundation'
+  # 支持的Swift版本
+  s.swift_version = '3.2'
+  
 end
